@@ -79,7 +79,7 @@
 	show-menu
     while ($true) {
     $choice = Read-Host " "
-    if ($choice -match '^(1[0-7]|[1-9])$') {
+    if ($choice -match '^(1[0-9]|2[0-6]|[1-9])$') {
     switch ($choice) {
     1 {
 
@@ -393,3 +393,4 @@ show-menu
       }
 
     } } else { Write-Host "Invalid input. Please select a valid option (1-17)." } }
+
