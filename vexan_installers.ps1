@@ -49,7 +49,7 @@
     Write-Host "-Deactivate overlays"
 	Write-Host ""
     Write-Host " 1. Exit"
-    Write-Host " 2. 7-Zip"
+    Write-Host " 2. NanaZip"
     Write-Host " 3. Beeper"
 	Write-Host " 4. Discord"
     Write-Host " 5. DirectX"
@@ -388,6 +388,7 @@ Get-FileFromWeb -URL "https://www.reaper.fm/files/7.x/reaper745_x64-install.exe"
 # install Reaper
 Start-Process "$env:TEMP\Reaper.exe"
 show-menu
+
 
       }
 
